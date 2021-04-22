@@ -1,0 +1,220 @@
+@media (min-width: 176px) {
+  .div-hold-li {
+    display: none !important;
+  }
+  .div-m {
+    opacity: 1 !important;
+    cursor: pointer;
+    margin-top: 13px;
+    margin-right: 15px;
+  }
+  .div-hold-d {
+    display: none !important;
+  }
+  nav img {
+    cursor: pointer;
+    padding-top: 10px;
+    margin-left: 5px !important;
+  }
+  .main-nav {
+    padding: 10px !important;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+  }
+  .mobile-nav {
+    display: block !important;
+  }
+  .p-des {
+    font-size: 20px !important;
+    width: 74%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .p-header {
+    font-size: 40px !important;
+    width: 70%;
+    margin: auto;
+  }
+
+  nav img {
+    width: 30% !important;
+    height: 30% !important;
+  }
+  //-----------------------------------------------------------------------
+  .section-3 {
+    background-image: url("/img/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 5% !important;
+    background-position-x: -250px;
+  }
+
+  .k-o {
+    font-size: 25px !important;
+    margin-top: 80px;
+  }
+
+  .o-k {
+    margin-top: 10px;
+    font-size: 15px !important;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .p-des {
+    font-size: 25px !important;
+  }
+  .p-header {
+    font-size: 60px !important;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  nav img {
+    width: 15% !important;
+    height: 15% !important  ;
+  }
+  .p-des {
+    font-size: 30px !important;
+  }
+  .p-header {
+    font-size: 70px !important;
+  }
+  //-----------------------------------------------------------------------
+  .section-3 {
+    background-image: url("/img/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 30% !important;
+    background-position-x: 0px !important;
+  }
+
+  .k-o {
+    font-size: 35px !important;
+    margin-top: 80px;
+  }
+
+  .o-k {
+    margin-top: 10px;
+    font-size: 17px !important;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1320px) {
+  .div-hold-li {
+    display: flex !important;
+  }
+  .div-hold-d {
+    display: flex !important;
+  }
+  .div-m {
+    display: none;
+  }
+  nav img {
+    width: 13%;
+    height: 13%;
+    cursor: pointer;
+    padding-top: 0px;
+    margin-left: 20px !important;
+  }
+  .main-nav {
+    padding: 30px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .mobile-nav {
+    display: none !important;
+  }
+  .img-h {
+    display: block;
+  }
+  .o {
+    display: inline-block !important;
+  }
+  .ff {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 1150px) {
+  .img-h {
+    display: none;
+  }
+  .sam-div {
+    display: block !important;
+    width: 900px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    background-color: white;
+    margin: auto !important;
+    margin-bottom: 30px !important;
+    max-width: 90% !important;
+    height: 30% !important;
+  }
+  .same-4 {
+    width: 35% !important;
+  }
+  .in-l {
+    display: none;
+  }
+  .section-4 {
+    display: block !important;
+    text-align: center;
+  }
+  .number {
+    font-size: 38px !important;
+  }
+  .div-3 {
+    display: block !important;
+  }
+  .same-p {
+    font-size: 20px !important;
+  }
+  .co {
+    margin-top: 90px !important;
+  }
+  .o-k {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 840px) {
+  .o {
+    display: block !important;
+  }
+  .oo {
+    display: block !important;
+    margin-top: 10px !important;
+  }
+  .ff {
+    display: block !important;
+    margin: auto;
+    input {
+      margin: auto;
+    }
+  }
+  .img-1 {
+    width: 90% !important;
+  }
+  .p-header {
+    width: 90%;
+  }
+  .p-des {
+    font-size: 25px !important;
+    width: 90% !important;
+  }
+  .first-p {
+    font-size: 15px !important;
+  }
+  .span-1 {
+    font-size: 14px;
+  }
+  .div-span {
+    border-top: solid 2px rgb(238, 234, 234);
+    padding-top: 10px;
+  }
+}
